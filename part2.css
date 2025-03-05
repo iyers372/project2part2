@@ -114,10 +114,11 @@ audio {
   }
 
   #bg-video {
-    width: 80vw;
-    height: 80vh;
+    width: 100vw;
+    height: 100vh;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    object-fit: contain;
 }
 }
